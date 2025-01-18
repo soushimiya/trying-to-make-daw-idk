@@ -1,0 +1,35 @@
+/*
+    dJson Song Format v0.1 (Powered by Json-with-Comments)
+    @author Sulkiez (Manually generated)
+*/
+{
+    // Every basic variable has two fields: value and event.
+    "bpm": {
+        "value": 120,
+        "event": []
+    },
+    // Every basic variable has two fields: value and event.
+    "tracks": [
+        {"display": "", "name": ""}
+    ],
+    // Special variables. In most cases it contains only one value.
+    "elapsedTime": 500
+}
+
+/*
+    This is how instrument looks like. Used in the instrument field of a track, and mixer.
+
+    {
+        "name": "Sampler",
+        "variables": {
+            "file": {
+                "value": "Basic 808 Kick.wav",
+                "event": []
+            },
+            "content.keepOnDisk": {
+                "value": true,
+                "event": []
+            }
+        }
+    }
+*/
